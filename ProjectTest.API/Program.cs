@@ -11,13 +11,13 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 6 Running ... 08032024-v1.0.0 CI/CD in  JENKINS v2.0.0 POLYGLOT";
+    return "GET - Net 6 Running ... 11032024-v1.0.0 CI/CD in  JENKINS v2.0.0 POLYGLOT";
 });
 
 app.MapPost("/", () =>
 {
     app.Logger.LogInformation("Initial Home Post");
-    return "POST - Net 6 Running ... 08032024-v1.0.0 CI/CD in  JENKINS v1.0.0 POLYGLOT";
+    return "POST - Net 6 Running ... 11032024-v1.0.0 CI/CD in  JENKINS v1.0.0 POLYGLOT";
 });
 
 //app.Run($"http://0.0.0.0:{port}");
